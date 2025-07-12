@@ -1,0 +1,223 @@
+*{  
+    font-family: arial;
+    color: whitesmoke;
+    font-size: 16px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #FF5200;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+
+.logo{
+    background-image: url('Swiggy_logo.png');
+    background-size: cover;
+    width: 160px;
+    height: 48px;
+}
+
+.navbar1-2{
+    width: 620px;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar1-2 a{
+    width: 130px;
+    height: 28px;
+}
+
+.arrow{
+    color: white;
+}
+
+button{
+    width: 150px;
+    height: 54px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.signin{
+    background-color: black;
+    border: none;
+}
+/* hero section from here */
+
+.heromain{
+    width: 100%;
+}
+
+.hero{
+    margin-left: 0%;
+    margin-right: 0%;
+    width: auto;
+    height: auto;
+    padding-top: 64px;
+    padding-bottom: 10px;
+    padding-left:16px;
+    padding-right: 16px;
+    background-color: #FF5200;
+    display: flex;
+   
+}
+
+.hero1 div{
+    padding-left: 2%;
+    width: 800px;
+    height: 112px;
+    font-size: 48px;
+    color: rgb(243, 238, 238);
+    align-items: center;
+    text-align: center;
+    font-weight: 550;
+}
+
+.img1{
+    background-image: url('Veggies_new.avif');
+    margin-left: 0%;
+    position: absolute;
+    left: 0px;
+}
+.img2{
+    background-image: url('Sushi_replace.avif');
+    margin-right: 0px;
+    position: absolute;
+    right: 0px;
+}
+
+.img{
+    background-size: cover;
+    width: 250px;
+    height: 450px;
+    display: flex;
+}
+
+.hero2{
+    background-color: #FF5200;
+    display: flex;
+    margin-top: 0%;
+    width: auto;
+    height: 164px;
+}
+
+.map{
+    color: #FF5200;
+}
+
+
+.location{
+    margin-right: 2%;
+    background-color: white;
+    width: 270px;
+    height: 50px;
+    padding: 10px 0px 0px 20px;
+    border: 0.800px;
+    border-radius: 16px;
+}
+
+input{
+    color: #02060C73;
+    font-weight: 550;
+    border: none;
+    width: 80%;
+    height: 40px;
+}
+
+.search{
+    background-color: white;
+    margin-left: 0%;
+    width: 450px;
+    height: 60px;
+    border-radius: 16px;
+}
+
+#search{
+    background-color: white;
+    width: 400px;
+    height: 55px;
+    border-radius: 16px;
+    padding-left: 16px;
+}
+
+i{
+    color: black;
+    font-weight: 500;
+}
+
+.hero-3{
+    /* margin-top: 10%; */
+    width: auto;
+    height: auto;
+    padding: 0px 8px 20px 8px;
+    display: flex;
+    justify-content: center;
+    background-color: #FF5200;
+}
+
+.hero-img{
+    background-size: cover;
+    width: 380px;
+    height: 350px;
+    
+}
+
+.hero-img2{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.hero-img1{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.hero-img3{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+/* scroll bar for the items */
+
+.main{
+    margin-top: 150px;
+    width: 1200px;
+    height: 418px;
+    background-color: rgb(226, 63, 63);
+    white-space: nowrap ;
+    overflow-x: auto ;
+    overflow-y: hidden;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;/* hide the scroll bar*/
+}
+
+.main{
+    width: 1210px;
+    height: 418px;
+    background-color: rgb(255, 254, 254);
+    white-space: nowrap ;
+    overflow-x: auto ;
+    overflow-y: hidden;
+}
+
+.child{
+    background-color: rgb(246, 243, 243);
+    width: 180px;
+    height: 178px;
+    margin: 10px;
+    display: inline-block;
+    background-size: contain;
+}
