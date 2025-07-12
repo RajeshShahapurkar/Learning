@@ -221,3 +221,65 @@ i{
     display: inline-block;
     background-size: contain;
 }
+
+
+/* grosoriesscroll */
+.grosories-main{
+    margin-top: 35px;
+    width: 1210px;
+    height: 298px;
+    background-color: white;
+    
+    margin-bottom: 40px;
+}
+
+#grotext{
+    margin-left: 20px;
+    color: black;
+    font-family: arial;
+    font-size: 24px;
+    font-weight: 600;
+    width: 330px;
+    height: 26px;
+}
+
+.big{
+    margin-top: 20px;
+    display: flex;
+    background-color: white;
+    white-space: nowrap ;
+    overflow-x: auto ;
+    overflow-y: hidden;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;/* hide the scroll bar*/
+}
+
+.sub{
+    padding-top:12px ;
+    width: 144px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    color: #02060CBF;
+}
+
+.gromain1{
+    background-color: white;
+    width: 184px;
+    height: 240px;
+    justify-content: end;
+}
+
+.grochild{
+    background-color: white;
+    margin-right: 40px;
+    display: inline-block;
+}
+
+.child{
+    width: 144px;
+    height: 180px;
+    background-size: cover;
+}
